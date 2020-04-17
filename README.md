@@ -13,10 +13,10 @@
 
 
 ## 실행
- > 1. backend 서버 구동
- >   1. ```gradlew bootRun```
- > 2. frontend 구동
- >   1. cd ./frontend
- >   2. ```yarn init```
- >   3. ```yarn start```
- >   4. ```http://localhost:3000``` 접속
+> 1. backend 서버 구동
+>     1. ```gradlew bootRun```
+> 2. frontend 구동
+>     1. cd ./frontend
+>     2. ```yarn init```
+>     3. ```yarn start```
+>     4. ```http://localhost:3000``` 접속
