@@ -1,0 +1,52 @@
+DELETE http://localhost:8080/2
+
+###
+PUT http://localhost:8080/done/3
+
+###
+PUT http://localhost:8080/done/1
+###
+POST http://localhost:8080/sub/1
+Content-Type: application/json
+
+{
+  "subTodoId": [3,2]
+}
+###
+POST http://localhost:8080/sub/1
+Content-Type: application/json
+
+{
+  "subTodoId": [2]
+}
+
+###
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+  "subject" : "할일3"
+}
+
+###
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+  "subject" : "할일2"
+}
+
+###
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+    "subject" : "할일1"
+}
+
+###
+GET http://localhost:8080/todo
+Accept: application/json
+
+###
+
